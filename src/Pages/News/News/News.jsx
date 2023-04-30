@@ -3,7 +3,7 @@ import { Button, Card } from 'react-bootstrap';
 import { FaArrowLeft } from 'react-icons/fa';
 import { Link, useLoaderData } from 'react-router-dom';
 import NewsInsights from './NewsInsights/NewsInsights';
-import { AuthContext } from '../../../Provider/Provider';
+import { AuthContext } from '../../../Provider/AuthProvider/AuthProvider';
 
 const News = () => {
     const news = useLoaderData()
